@@ -1,0 +1,27 @@
+name: breaking_bad
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^2.5.0
+  cupertino_icons: ^1.0.0
+  google_nav_bar: ^4.0.2
+  http: any
+  provider: any
+  salomon_bottom_bar: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
